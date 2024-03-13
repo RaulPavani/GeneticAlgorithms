@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Cinemachine;
 
 public class PopulationManager : MonoBehaviour
 {
@@ -30,8 +31,8 @@ public class PopulationManager : MonoBehaviour
     {
         for (int i = 0; i < populationSize; i++)
         {
-            float randomX = Random.Range(0, 2f);
-            float randomZ = Random.Range(0, 2f);
+            float randomX = Random.Range(-2f, 2f);
+            float randomZ = Random.Range(-2f, 2f);
 
             Vector3 startingPos = transform.position + new Vector3(randomX, 0, randomZ);
             GameObject newBot = Instantiate(botPrefab, startingPos, Quaternion.identity);
@@ -42,8 +43,8 @@ public class PopulationManager : MonoBehaviour
 
     GameObject Breed(GameObject firstParent, GameObject secondParent)
     {
-        float randomX = Random.Range(0, 2f);
-        float randomZ = Random.Range(0, 2f);
+        float randomX = Random.Range(-2f, 2f);
+        float randomZ = Random.Range(-2f, 2f);
         Vector3 startingPos = transform.position + new Vector3(randomX, 0, randomZ);
 
         GameObject breededBot = Instantiate(botPrefab, startingPos, Quaternion.identity);

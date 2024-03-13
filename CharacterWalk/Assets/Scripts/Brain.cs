@@ -31,6 +31,7 @@ public class Brain : MonoBehaviour
         float h = 0;
         float v = 0;
         bool crouch = false;
+
         if (dna.GetGene(0) == 0) v = 1;
         if (dna.GetGene(1) == 1) v = -1;
         if (dna.GetGene(2) == 2) h = -1;
@@ -54,6 +55,7 @@ public class Brain : MonoBehaviour
         if (col.gameObject.CompareTag("Hazard"))
         {
             alive = false;
+            gameObject.SetActive(false);
         }
     }
 }

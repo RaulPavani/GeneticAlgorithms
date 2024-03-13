@@ -1669,7 +1669,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565522241125702}
-  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_Material: {fileID: 13400000, guid: cdc435189130e9a48b66e99e7ba186e3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1733,7 +1733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2021bd44413f91b4d935fc04fb3fec48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dnaLenght: 0
+  genes: 
+  dnaLength: 0
   maxvalues: 0
 --- !u!1 &1578918934834248
 GameObject:
