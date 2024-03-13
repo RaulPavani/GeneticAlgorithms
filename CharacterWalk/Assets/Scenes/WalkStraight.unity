@@ -430,7 +430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a3b6a9f9727aaf4fb4a856349423206, type: 3}
       propertyPath: m_LocalScale.z
-      value: 68.04762
+      value: 64.136734
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a3b6a9f9727aaf4fb4a856349423206, type: 3}
       propertyPath: m_LocalPosition.x
@@ -442,7 +442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a3b6a9f9727aaf4fb4a856349423206, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0053
+      value: 3.9852
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5a3b6a9f9727aaf4fb4a856349423206, type: 3}
       propertyPath: m_LocalRotation.w
@@ -559,7 +559,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.35599858, g: 0.4291125, b: 0.6037736, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   botPrefab: {fileID: 1565522241125702, guid: 7d36b5f5cbe294f368cce70409a75a03, type: 3}
   populationSize: 50
-  mutationChance: 0
+  mutationChance: 10
   trialTime: 10
 --- !u!4 &1041977104
 Transform:

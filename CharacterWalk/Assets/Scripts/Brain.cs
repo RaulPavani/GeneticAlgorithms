@@ -3,22 +3,22 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class Brain : MonoBehaviour
 {
-    public int DNALength = 6;
-    public float timeAlive;
+    [SerializeField] private int DNALength = 6;
     public DNA dna;
+    //Fitness parameters
+    public float timeAlive;
+    public float distanceTravelled;
 
     private ThirdPersonCharacter character;
     private Vector3 moveVector;
     private bool jump;
-    bool alive = true;
-    public float distanceTravelled;
+    private bool alive = true;
     private Vector3 startPos;
 
     public void Init()
     {
         //DNA
         //0- forward, 1-back, 2-left, 3-right, 4-jump, 5 crouch
-
         dna.DNAInit(DNALength, 6);
         character = GetComponent<ThirdPersonCharacter>();
         timeAlive = 0;
